@@ -37,7 +37,7 @@ export const displayProducts = function (products, element) {
         
         <div class="card__info">
             <p class="card__title">${product.name}</p>
-            <span class="card__price">$${formatPrice(product.price)}</span>
+            <span class="card__price">₹${formatPrice(product.price)}</span>
         </div>
     </article>`;
 

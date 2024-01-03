@@ -156,7 +156,18 @@
             <button class="btn btn--products btn--checkout"><a href="tel:9442530032"><i class="fa fa-phone" aria-hidden="false"></i>9442530032</a></button>
           </div>
           <div style="margin: 10px;">
-            <button class="btn btn--products btn--checkout">Get Quote</button>
+            
+            <button class="btn btn--products btn--checkout" id="checkoutButton" onclick="openWhatsApp()">Get Quote</button>
+
+          <script>
+            function openWhatsApp() {
+              const phoneNumber = '9442530032'; // Replace with the recipient's phone number
+              const message = encodeURIComponent("I'm interested in your products.");
+
+              const whatsappLink = `https://wa.me/${phoneNumber}/?text=${message}`;
+              window.open(whatsappLink, '_blank');
+            }
+          </script>
           </div>
           
         </div>

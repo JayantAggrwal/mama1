@@ -7,7 +7,6 @@ This is a front-end application designed to provide a practical learning experie
 
 <h2>🚀 Hosted At</h2>
 
-[https://iqbal-kang-225-luxurify.vercel.app/](https://iqbal-kang-225-luxurify.vercel.app/)
 
 <h2>💻 Built with</h2>
 
